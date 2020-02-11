@@ -128,6 +128,7 @@ h2 {
   font-family: 'Poppins', Helvetica, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.875em;
+  margin-top: 0;
 }
 
 h3,
@@ -135,7 +136,7 @@ h4 {
   font-family: 'Poppins', Helvetica, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.125em;
-  margin: 20px 0;
+  margin: 0 0 20px 0;
 }
 
 p {
@@ -383,6 +384,22 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+.map figure {
+  position: relative;
+  width: 100;
+  padding-bottom: 80%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .contact-section {
