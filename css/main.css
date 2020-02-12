@@ -356,6 +356,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -429,16 +434,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 50px 0 0 0;
 }
 
 .faq h2 {
   margin-bottom: 40px;
   line-height: 1;
-}
-
-.faq-content {
-  margin-bottom: 50px;
 }
 
 .faq-content h4 {
