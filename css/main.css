@@ -256,6 +256,11 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+  color: #527158;
+  font-size: 2.5em;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -624,9 +629,19 @@ input[type=button] {
       display: flex;
       justify-content: space-between;
     }
-
+  
+    .reviews h2 {
+      width: 85%;
+    }
+  
+    .reviews article figure,
     .reviews article div {
       width: 49%;
+    }
+  
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
     }
 
     /* Footer */
@@ -657,6 +672,10 @@ input[type=button] {
 
     footer .copyright {
       width: 100%;
+    }
+
+    footer .social-icons i {
+      padding: 0 20px;
     }
 
     /* About */
@@ -772,9 +791,17 @@ input[type=button] {
 
     /* Reviews */
 
-    .reviews article div {
-      width: 42%;
-    }
+  .reviews article div {
+    width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
+
+  footer h4 {
+    font-size: 1.875em;
+  }
 
     /* Footer */
 
