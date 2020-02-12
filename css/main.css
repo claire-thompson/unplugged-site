@@ -439,11 +439,16 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin-bottom: 50px;
 }
 
 .faq h2 {
   margin-bottom: 40px;
   line-height: 1;
+}
+
+.faq-content {
+  margin: 20px 0;
 }
 
 .faq-content h4 {
@@ -592,6 +597,7 @@ input[type=button] {
       font-size: 3em;
       line-height: 1;
       margin: 0;
+      padding: 50px 0;
     }
 
     /* Aside */
@@ -714,6 +720,11 @@ input[type=button] {
     .faq .content-wrapper {
       justify-content: space-between;
     }
+
+    .faq-content {
+      flex-basis: 43%;
+      margin-right: 35px;
+    }
     
     .faq-section {
         flex-basis: 45%;
@@ -762,6 +773,7 @@ input[type=button] {
     .hero-area h1 {
       width: 60%;
       font-size: 3.75em;
+      padding: 50px 0;
     }
 
     /* Aside */
@@ -826,20 +838,25 @@ input[type=button] {
     }
       
     /********************** FAQ Page *************************/
-  
+
     .faq h2 {
       width: 100%; 
       font-size: 3em;     
     }
   
     .faq-content {
-      flex-basis: 50%;
+      flex-basis: 45%;
+      margin-right: 35px;
     }
 
     .faq h4,
     .faq p {
       font-size: 1.125em;
       line-height: 1;
+    }
+
+    .faq p {
+      padding-bottom: 50px;
     }
 
   }
